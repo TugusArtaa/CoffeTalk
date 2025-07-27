@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Coffee Talk</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Coffeshop07" name="keywords" />
+  <meta content="Website suatu perusahaan" name="description" />
+  <link rel="shortcut icon" href="img/Logo.png" type="image/x-icon">
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Stylesheet -->
+  <link href="css/stylefull.css" rel="stylesheet" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/contact.css" />
+</head>
+
+<body>
+  <div class="container-xxl bg-white p-0">
+    <!-- Spinner Start -->
+    <div id="spinner"
+      class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+      <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-xxl position-relative p-0">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
+        <a href="" class="navbar-brand p-0">
+          <h1 class="text-primary m-0">
+            <i class="fa fa-coffee me-3"></i>Coffee Talk
+          </h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+            <a href="index.html" class="nav-item nav-link">Home</a>
+            <a href="about.html" class="nav-item nav-link">About</a>
+            <a href="service.html" class="nav-item nav-link">Service</a>
+            <a href="menu.html" class="nav-item nav-link active">Menu</a>
+            <div class="nav-item dropdown">
+              <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+              <div class="dropdown-menu m-0">
+                <a href="team.html" class="dropdown-item">Our Team</a>
+                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+              </div>
+            </div>
+            <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </nav>
+
+        <div class="container-xxl py-5 bg-dark hero-header mb-5">
+          <div class="container text-center my-5 pt-5 pb-4">
+            <h1 class="display-3 text-white mb-3 animated slideInDown">
+              Menu
+            </h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb justify-content-center text-uppercase">
+                <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                <li class="breadcrumb-item"><a href="service.html">Pages</a></li>
+                <li
+                  class="breadcrumb-item text-white active"
+                  aria-current="page"
+                >
+                  Menu
+                </li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <!-- Navbar & Hero End -->
+
+    <!-- Menu Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+          <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+            <h5 class="section-title ff-secondary text-center text-primary fw-normal">
+              All Menu
+            </h5>
+            <h1 class="mb-5">Most favorite Menu</h1>
+          </div>
+          <div class="tab-class text-center wow fadeInUp" data-wow-delay="0.1s">
+            <ul class="nav nav-pills d-inline-flex justify-content-center border-bottom mb-5">
+              <li class="nav-item">
+                <a class="d-flex align-items-center text-start mx-3 ms-0 pb-3 active" data-bs-toggle="pill" href="#tab-1">
+                  <i class="fa fa-coffee fa-2x text-primary"></i>
+                  <div class="ps-3">
+                    <small class="text-body">Popular</small>
+                    <h6 class="mt-n1 mb-0">Beverages</h6>
+                  </div>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="d-flex align-items-center text-start mx-3 pb-3" data-bs-toggle="pill" href="#tab-2">
+                  <i class="fa fa-utensils fa-2x text-primary"></i>
+                  <div class="ps-3">
+                    <small class="text-body">Special</small>
+                    <h6 class="mt-n1 mb-0">Core Menu</h6>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <div class="tab-content">
+              <div id="tab-1" class="tab-pane fade show p-0 active">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-1.jpg" alt="CaffeLatte" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Caffe Latte</span>
+                          <span class="text-primary">Rp32.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Rich, full-bodied espresso in steamed milk, lightly topped with foam. A
+                          caffè latte is simply a shot or two of bold, tasty espresso with fresh, sweet steamed milk over
+                          it.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-2.jpg" alt="Caramel Macchiato" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Caramel Macchiato</span>
+                          <span class="text-primary">Rp45.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Espresso combined with vanilla-flavoured syrup, milk and caramel sauce
+                          over ice.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-3.jpg" alt="Caffe Mocha" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Caffe Mocha</span>
+                          <span class="text-primary">Rp39.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Espresso with bittersweet mocha sauce and steamed milk, topped with
+                          sweetened whipped cream. Delightful.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-4.jpg" alt="Misto" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Misto</span>
+                          <span class="text-primary">Rp25.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Equal parts fresh filter coffee and frothy steamed milk.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-5.jpg" alt="Cold Brew" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Cold Brew</span>
+                          <span class="text-primary">Rp23.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Cold Brew Blend to heighten the rich, naturally sweet flavor created
+                          during the cold brewing process.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-6.jpg" alt="Java Chip Frappuccino" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Java Chip Frappuccino</span>
+                          <span class="text-primary">Rp33.000,00</span>
+                        </h5>
+                        <small class="fst-italic">We blend mocha sauce and Frappuccino chips with coffee and milk and ice,
+                          then top with whipped cream and mocha drizzle.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-7.jpg" alt="Vanilla Cream Frappuccino" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Vanilla Cream Frappuccino</span>
+                          <span class="text-primary">Rp39.000,00</span>
+                        </h5>
+                        <small class="fst-italic">This rich and creamy blend of vanilla bean, milk and ice topped with
+                          whipped cream takes va-va-vanilla flavor to another level.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/menu-8.jpg" alt="Green Tea Latte" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Green Tea Latte</span>
+                          <span class="text-primary">Rp28.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Smooth and creamy matcha is lightly sweetened and served with steamed
+                          milk.</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id="tab-2" class="tab-pane fade show p-0">
+                <div class="row g-4">
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/ChocolateCroissant.jpg" alt="Chocolate Croissant"
+                        style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Chocolate Croissant </span>
+                          <span class="text-primary">Rp28.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Butter croissant dough is wrapped around two chocolate batons to create
+                          a perfect balance that will satisfy any sweet tooth.</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/NuttelaBombolone.jpg" alt="Nutella Bombolone"
+                        style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Nutella Bombolone</span>
+                          <span class="text-primary">Rp31.000,00</span>
+                        </h5>
+                        <small class="fst-italic">A classic bombolone filled with Nutella filling</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/ScarletVelvet.jpg" alt="Scarlet Velvet Cake"
+                        style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Scarlet Velvet Cake</span>
+                          <span class="text-primary">Rp33.000,00</span>
+                        </h5>
+                        <small class="fst-italic">This Red Velvet cake frosted with Classci cream Cheese</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/OreoCheese.jpg" alt="Oreo Cheesecake" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Oreo Cheesecake</span>
+                          <span class="text-primary">Rp29.000,00</span>
+                        </h5>
+                        <small class="fst-italic">A classic twist with Cheesecake and Oreo bit</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/BeefFilone.jpg" alt="Beef Filone" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Beef Filone</span>
+                          <span class="text-primary">Rp42.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Soft Baguette with Smoked Beef & Cheese filling</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/PeanutButter.jpg" alt="Peanut Butter Panini"
+                        style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Peanut Butter Panini</span>
+                          <span class="text-primary">Rp32.000,00</span>
+                        </h5>
+                        <small class="fst-italic">A straigh forward Panini sandwich with rich Peanut Butter
+                          filling</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/BananaCake.jpg" alt="Banana Cake" style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Banana Cake</span>
+                          <span class="text-primary">Rp17.000,00</span>
+                        </h5>
+                        <small class="fst-italic">Moist and flavorful Banana Quickbread cake</small>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-6">
+                    <div class="d-flex align-items-center">
+                      <img class="flex-shrink-0 img-fluid rounded" src="img/ChocolateStroopwafel.jpg" alt="Chocolate Stroopwafel"
+                        style="width: 80px" />
+                      <div class="w-100 d-flex flex-column text-start ps-4">
+                        <h5 class="d-flex justify-content-between border-bottom pb-2">
+                          <span>Chocolate Stroopwafel</span>
+                          <span class="text-primary">Rp24.000,00</span>
+                        </h5>
+                        <small class="fst-italic">A classic dutch cookie made from Caramel & Chocolate</small>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Menu End -->
+
+   <!-- Footer Start -->
+   <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5">
+        <div class="col-lg-3 col-md-6">
+          <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+            Company
+          </h4>
+          <a class="btn btn-link" href="about.html">About Us</a>
+          <a class="btn btn-link" href="contact.html">Contact Us</a>
+          <a class="btn btn-link" href="privacypolicy.html">Privacy Policy</a>
+          <a class="btn btn-link" href="terms.html">Terms & Condition</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+            Contact
+          </h4>
+          <p class="mb-2">
+            <i class="fa fa-map-marker-alt me-3"></i>Jl. Uluwatu II No.89 XI
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-phone-alt me-3"></i>085524675490
+          </p>
+          <p class="mb-2">
+            <i class="fa fa-envelope me-3"></i>talk1@gmail.com
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social" href="https://twitter.com/i/flow/login?redirect_after_login=%2FTwitter" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/" target="_blank"><i class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+            Opening
+          </h4>
+          <h5 class="text-light fw-normal">Monday - Saturday</h5>
+          <p>09AM - 10PM</p>
+          <h5 class="text-light fw-normal">Sunday</h5>
+          <p>10 AM - 09 PM</p>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4">
+            Newsletter
+          </h4>
+          <p>Hanya sebuah pesan, bukan tentang mengungkapkan perasaan.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Coffetalk</a>, All
+            Right Reserved. Designed By
+            <a class="border-bottom" href="#">TugusArtaa</a>
+          </div>
+          <div class="col-md-6 text-center text-md-end">
+            <div class="footer-menu">
+              <a href="index.html">Home</a>
+              <a href="help.html">Help</a>
+              <a href="fqas.html">FQAs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+</div>
+
+<!-- JavaScript Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/tempusdominus/js/moment.min.js"></script>
+<script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+<script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="assets/js/animation.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
