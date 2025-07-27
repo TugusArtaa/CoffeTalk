@@ -4,7 +4,7 @@ Selamat datang di **CoffeeTalk**!
 Website sederhana untuk coffee shop kekinian yang berlokasi di Bali, dibuat untuk memperkenalkan layanan, menu, tim, dan testimoni pelanggan secara online.  
 Nikmati pengalaman ngopi terbaik bersama kami! ✨
 
----
+> Dibuat saat semester 3 sebagai proyek pembelajaran.
 
 ## 🚀 Fitur Utama
 
@@ -16,8 +16,6 @@ Nikmati pengalaman ngopi terbaik bersama kami! ✨
 - 💬 **Testimonial**: Ulasan asli dari pelanggan setia.
 - 📞 **Contact**: Formulir kontak & lokasi coffee shop.
 
----
-
 ## 🛠️ Teknologi
 
 - HTML5 & CSS3
@@ -25,8 +23,6 @@ Nikmati pengalaman ngopi terbaik bersama kami! ✨
 - Font Awesome & Bootstrap Icons
 - jQuery
 - Owl Carousel & WOW.js (animasi interaktif)
-
----
 
 ## 🖼️ Tampilan User Interface
 
@@ -63,8 +59,6 @@ Nikmati pengalaman ngopi terbaik bersama kami! ✨
     <td><img src="img/screenshot/detail-service.png" alt="Detail Service" width="220" /></td>
   </tr>
 </table>
-
----
 
 ## 📢 Tentang Website
 
